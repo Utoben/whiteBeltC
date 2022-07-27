@@ -29,6 +29,6 @@ int main(std::int32_t c, std::int32_t d, std::int32_t result)
         }
 
     }
-    return res
+    return res;
 
 }
