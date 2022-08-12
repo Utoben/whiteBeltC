@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Программа отработает 5 раз " << "\n";
+    cout << "Программа отработает несколько раз " << "\n";
     string close = " ";
     while (close!="N" ){
     
