@@ -25,10 +25,44 @@ int Factorial(int var1) {
     }
 }
 
+int testFactorial() {
+
+    int result = Factorial(1);
+
+    if (result == 1) {
+        cout << "\nTest passed";
+    }
+    else {
+        cout << "\nTest failed";
+    }
+
+    int result2 = Factorial(-2);
+
+    if (result2 == 1) {
+        cout << "\nTest2 passed" << " ";
+    }
+    else {
+        cout << "\nTest2 failed" << " ";
+    }
+
+    int result3 = Factorial(4);
+    if (result3 == 24) {
+        cout << "\nTest3 passed" << " ";
+    }
+    else {
+        cout << "\nTest3 failed" << " ";
+    }
+    return 0;
+}
+
 int main() {
     int i;
     cout << "Need a value. Value must be less then 10: ";
     cin >> i;
-    cout << Factorial(i);
+    cout <<"\nResult is: " << Factorial(i);
+    testFactorial();
+
     return 0;
 }
+
+
