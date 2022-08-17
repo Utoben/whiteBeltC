@@ -1,0 +1,43 @@
+
+
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+
+
+using namespace std;
+
+void BuildCharCounters(const vector<string>& v) {
+
+    for (string s : v) {
+        cout << s << endl;
+
+    } 
+
+
+    
+}
+    
+
+
+int main() {
+    int n;
+    cin >> n;
+
+    vector<string> v(n);
+   int  i = 0;
+   while (i < n) {
+       string firstWord, secondWord;
+       cin >> firstWord >> secondWord;
+       v.push_back(firstWord);
+       v.push_back(secondWord);
+       ++i;
+   }
+   
+    BuildCharCounters(v);
+    return 0;
+}
+
+
